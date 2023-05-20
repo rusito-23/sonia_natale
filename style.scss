@@ -50,6 +50,12 @@ a {
   margin: 2rem;
 }
 
+.links-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  grid-gap: 10px;
+}
+
 @media only screen and (max-width: 600px) {
   .main-container {
     height: auto;
